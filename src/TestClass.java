@@ -8,7 +8,7 @@ public class TestClass {
 		int z = x + y;
 		
 		System.out.println(z);
-		System.out.println("cat");
+		System.out.println("dog");
 
 	}
 
