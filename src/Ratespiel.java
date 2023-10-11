@@ -18,7 +18,7 @@ public class Ratespiel {
 		if (rand == number) {
 			System.out.println("Super, richtig geraten!");
 		}
-		System.out.println("Sie haben die Zahl " + number + " geraten. Es war die Zahl " + rand);
+		System.out.println("Du hast die Zahl " + number + " geraten. Es war die Zahl " + rand);
 	}
 
 }
