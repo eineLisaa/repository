@@ -3,18 +3,18 @@ import java.util.*;
 public class Ratespiel {
 
 	public static void main(String[] args) {
-		// Scanner einbinden
+		// Integrate scanner
 		Scanner sc = new Scanner(System.in);
 
-		// Zufallszahl zwischen 1 und 5 erzeugen
+		// Generate random number between 1 and 5
 		int rand = (int) (5 * Math.random() + 1);
 
 		System.out.println("Rate eine Zahl zwischen 1 und 5");
 
-		// number eingeben
+		// Enter number
 		int number = sc.nextInt();
 
-		// Wenn die Zufallszahl geraten dann "Super..." ausgeben
+		// If the random number is guessed then output "Super...".
 		if (rand == number) {
 			System.out.println("Super, richtig geraten!");
 		}
