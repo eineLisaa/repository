@@ -19,6 +19,7 @@ public class Ratespiel {
 			System.out.println("Super, richtig geraten!");
 		}
 		System.out.println("Du hast die Zahl " + number + " geraten. Es war die Zahl " + rand);
+		sc.close();
 	}
 
 }
