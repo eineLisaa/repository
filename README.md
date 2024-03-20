@@ -1,1 +1,1 @@
-# first java assignments PR1
+# first java exercises PR1
